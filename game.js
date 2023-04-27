@@ -17,7 +17,7 @@ function myFunction() {
 
     let userinput = prompt("guess the number")
     if (win(userinput)) {
-      document.getElementById('win').innerHTML = `you win you guessed the right number: ${a}`
+      document.getElementById('win').innerHTML = `You Win you guessed the right number: ${a}`
       break;
     }
 
@@ -25,13 +25,13 @@ function myFunction() {
       document.getElementById("tryagain").write = 'Try again'
       //    let a2='number is smaller'
       // document.write(a2) 
-      alert(" The number is smaller")
+      alert(" Your number is smaller")
 
 
     }
     else if (a > userinput) {
       console.log("Try again");
-      alert("The number is bigger")
+      alert("Your number is bigger")
       //  let a1= "Number is bigger from your number"
       //  document.write(a1)
 
