@@ -25,7 +25,7 @@ function myFunction() {
       document.getElementById("tryagain").write = 'Try again'
       //    let a2='number is smaller'
       // document.write(a2) 
-      alert(" Your number is bigger")
+      alert(" Your number is bigger ")
 
 
     }
