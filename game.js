@@ -38,7 +38,7 @@ function myFunction() {
     } total += 1;
     console.log("turn : " + total)
   }
-  document.getElementById('result').innerHTML = `Your score is : ${total} Guesses`
+  document.getElementById('result').innerHTML = `Your score : ${total} Guesses`
 }
 
   // c = confirm("you want to play again")
