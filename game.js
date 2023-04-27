@@ -25,13 +25,13 @@ function myFunction() {
       document.getElementById("tryagain").write = 'Try again'
       //    let a2='number is smaller'
       // document.write(a2) 
-      alert(" Your number is smaller")
+      alert(" Your number is bigger")
 
 
     }
     else if (a > userinput) {
       console.log("Try again");
-      alert("Your number is bigger")
+      alert("Your number is smaller")
       //  let a1= "Number is bigger from your number"
       //  document.write(a1)
 
